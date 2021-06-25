@@ -1,0 +1,39 @@
+
+.gradiantVoladorDragon{
+    background: rgb(121,122,122);
+    background: linear-gradient(0deg, rgba(121,122,122,1) 38%, rgba(112,222,223,1) 94%);
+}
+.gradiantRocaDragon{
+    background: rgb(247,222,63);
+    background: linear-gradient(0deg, rgba(247,222,63,1) 27%, rgba(171,152,66,1) 71%);
+}
+
+.selectImage :hover{
+    color: brown;
+    background-color: white;
+    border-color: brown;
+}
+#imgBulbasaur :hover{
+    background-color: cadetblue !important;
+}
+.texto{
+    font-family:Verdana,Tahoma, sans-serif;
+    font-size: 18px;
+}
+.texto2{
+    font-family:Verdana,Tahoma, sans-serif;
+    font-size: 20px;
+}
+.margen{
+    align-content: center;
+}
+.titulo{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.textoBadge{
+    color: black;
+}
+.titulOperaciones{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(253,29,29,1) 68%, rgba(252,176,69,1) 87%);
+}
