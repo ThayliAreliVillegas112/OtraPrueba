@@ -1,8 +1,3 @@
-let ballBlue =document.getElementById("ballBlue");
-let ballRed = document.getElementById("ballRed");
-ballBlue.style.display = "block";
-ballRed.style.display = "none";
-
 const formContact =() =>{
     let name= document.getElementById("name").value;
     let birthday =document.getElementById("birthday").value;
@@ -12,6 +7,19 @@ const formContact =() =>{
     Gracias por escribir este mensaje: ${message}`);
 }
 
+const viewBallBlue = () =>{
+  let ballBlue = document.getElementById("ballBlue");
+  let ballRed = document.getElementById("ballRed");
+  ballBlue.style.display = "block";
+  ballRed.style.display = "none";
+}
+
+const viewBallRed = () =>{
+  let ballBlue = document.getElementById("ballBlue");
+  let ballRed = document.getElementById("ballRed");
+  ballBlue.style.display = "none";
+  ballRed.style.display = "block";
+}
 /*Página de operaciones básicas*/
 
 const suma =() =>{
@@ -43,7 +51,7 @@ const division =() =>{
 }
 
 /*Página de operaciones básicas con alert de bootstrap*/
-
+/*
 const suma2 =() =>{
     let num1 = parseInt(document.getElementById("num1").value);
     let num2 = parseInt(document.getElementById("num2").value);
@@ -75,7 +83,7 @@ const division2 =() =>{
     document.getElementById('resultado4').innerHTML= respuesta;
     viewDiv.style.display = "block";
 }
-
+*/
 /*
 
 let miPrimeraPromise = new Promise((resolve, reject) => {
@@ -104,3 +112,5 @@ let miPrimeraPromise = new Promise((resolve, reject) => {
   .catch( err => {
     console.log(err);
   });*/
+
+
