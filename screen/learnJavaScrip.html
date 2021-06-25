@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learn Java Scrip</title>
+        <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js"
+            crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <img style="margin-left: 10px;" alt="PLAZA SOLAZ-PLAZA-TEMIXCO-MORELOS " src="../assets/img/logo.png" width="5%"
+                height="5%">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Plaza Solaz <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about">Acerca de nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contact">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../screen/learnDiv.html">Aprende Div</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../screen/learnBootstrap.html">Aprende Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../screen/pokemon.html">Pokemones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../screen/operaciones.html">Operaciones</a>
+                    </li>
+                </ul>
+                <!--Sin mr-auto se alinea a la derecha-->
+                <ul class="navbar-nav">
+                    <li>
+                        <img class="border border-danger rounded-circle" height="40" width="40"
+                        src="../assets/img/perfil.png">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary">Thayli Areli Villegas García</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <form method="POST" name="" action="" role="form">
+                                <div class="form-group">
+                                    <label>Nombre completo: <span class="text-danger">*</span> </label>
+                                    <input type="text" id="name" name="name" class="form-control"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Fecha de nacimiento: <span class="text-danger">*</span> </label>
+                                    <input type="date" id="birthday" name="birthday" class="form-control"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Comentarios</label>
+                                    <textarea name="message" id="message" rows="3" class="form-control"></textarea>
+                                </div>
+                                <div class="text-end" style="margin-top: 15px;"> <!--text-end es para bootstrap 5-->
+                                    <button type="button" class="btn btn-outline-success" onclick="formContact()">Iniciar sesión</button>
+                                </div>                           
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <script src="../js/learnJavaScrip.js"></script>
+    </body>
+    
+</html>
